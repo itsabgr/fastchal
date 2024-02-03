@@ -1,0 +1,23 @@
+{
+  "name": "fastchal",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.ts",
+  "engines": {
+    "node": "^20.11.0",
+    "npm":"^10.2.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file=.env dist/index.js"
+  },
+  "author": "abgr",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.11.16",
+    "fastify": "^4.26.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
